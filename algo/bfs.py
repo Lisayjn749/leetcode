@@ -20,8 +20,7 @@ def bfs(graph, start_node):
         list: A list of nodes in the order they were visited during BFS.
     """
 
-    queue = []
-    queue.append(graph[start_node])
+    queue = [start_node]
     visited = [start_node]
 
     while queue:
